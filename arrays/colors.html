@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charse t="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colors | Array</title>
+</head>
+<body>
+    <h1>Manual</h1>
+    <script>
+        var colors = ["red", "blue", "green"];
+        var user = prompt("Enter your favrt colors names?");
+        colors.unshift(user);
+        document.write(colors + "<br>");
+    </script>  
+
+    <br>
+    <h1>using loops | unshift</h1>
+    <script>
+        var colors = ["red", "blue", "green"];
+        var user = prompt("Enter your favrt colors names?");
+        colors.unshift(user);
+        for (var index = 0; index < colors.length; index++) {
+            var element = colors[index];
+            document.write(element + "<br>");
+        }
+    </script>
+
+<h1>using loops | push</h1>
+<script>
+    var colors = ["red", "blue", "green"];
+    var user = prompt("Enter your favrt colors names?");
+    colors.push(user);
+    for (var index = 0; index < colors.length; index++) {
+        var element = colors[index];
+        document.write(element + "<br>");
+    }
+</script>
+
+</body>
+</html>
