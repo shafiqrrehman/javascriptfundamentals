@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form | OnSubmit</title>
+</head>
+<body>
+    <form onsubmit="return getElementValue()">
+        <input type="text" id="name">
+        <input type="text" id="password">
+        <input type="text" id="email">
+        <input type="submit" value="Submit" id="btn" >
+    </form>
+
+    <script>
+        function getElementValue() {
+            const name = document.getElementById('name').value;
+            const pass = document.getElementById('password').value;
+            const mail = document.getElementById('email').value;
+
+
+            document.getElementById('name').value = "";
+            document.getElementById('password').value = "";
+            document.getElementById('email').value = "";
+
+            alert(name);
+            alert(pass);
+            alert(mail);
+
+           return false;
+        }
+    </script>
+</body>
+</html>
