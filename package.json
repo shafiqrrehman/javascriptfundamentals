@@ -1,0 +1,23 @@
+{
+  "name": "javascriptfundamentals",
+  "version": "1.0.0",
+  "description": "JS FUNdamentals: An Essential Overview of JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafiqrrehman/javascriptfundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafiqrrehman/javascriptfundamentals/issues"
+  },
+  "homepage": "https://github.com/shafiqrrehman/javascriptfundamentals#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
